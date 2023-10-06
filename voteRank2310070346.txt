@@ -1,4 +1,4 @@
-const data2 = `아카데미 닭장교수,,735,,200,,https://image.novelpia.com/imagebox/cover/9e6dcf40a386ba58e9c6b3d8afa43848_66608_ori.wimg
+아카데미 닭장교수,,735,,200,,https://image.novelpia.com/imagebox/cover/9e6dcf40a386ba58e9c6b3d8afa43848_66608_ori.wimg
 나를 잃었지만 살만합니다.,,707,,197,,https://image.novelpia.com/imagebox/cover/fd09bc037b7fae1e07fa1216d887370b_21354_ori.wimg
 힐러로 전생했더니 소환된 용사가 불알친구였다,,964,,173,,https://image.novelpia.com/imagebox/cover/e3cb958ec44f97ebe00380048c692ffc_37208_ori.wimg
 거지같은 환생,,954,,144,,https://image.novelpia.com/imagebox/cover/0fa58ba16a5a5e867f0084935e6a9241_22173_ori.wimg
@@ -1904,4 +1904,3 @@ Ts)사신소년(녀),,0,,0,,https://image.novelpia.com/imagebox/cover/1505826f73
 탑속 정신나간 독술사가 되었다.,,0,,0,,https://image.novelpia.com/img/layout/readycover4.wimg
 나의 존재는 모순적이다,,0,,0,,https://image.novelpia.com/img/layout/readycover4.wimg
 내가 나로 있기까지,,0,,0,,https://image.novelpia.com/img/layout/readycover4.wimg
-`;

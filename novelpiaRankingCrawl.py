@@ -32,7 +32,11 @@ while(True):
             
             info_text = info_t_box.text
             info_view = info_text.split('명')[0]
+            if(info_view[-1].lower() == 'k'):
+                info_view = int(info_view[:-1]) * 1000
             info_vote = info_text.split('회차')[1].split('회')[0].strip()
+            if(info_vote[-1].lower() == 'k'):
+                info_vote = int(info_vote[:-1]) * 1000
             if title in novelDic:
                 overlapCount += 1
             novelDic[title] = (int(info_view), int(info_vote), info_cover_src)

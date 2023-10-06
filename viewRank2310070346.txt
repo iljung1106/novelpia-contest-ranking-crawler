@@ -1,4 +1,4 @@
-const data1 = `귀환당한 용사는 마왕과 동거한다,,986,,69,,https://image.novelpia.com/imagebox/cover/754981ac7dc75eed853bf726c021a1e3_463725_ori.wimg
+귀환당한 용사는 마왕과 동거한다,,986,,69,,https://image.novelpia.com/imagebox/cover/754981ac7dc75eed853bf726c021a1e3_463725_ori.wimg
 나의 희생을 깨닫게 된 그녀들,,978,,40,,https://image.novelpia.com/imagebox/cover/3c1d043aa61590f34d913e267daaf6dc_35535_ori.wimg
 군단장들이 내게 집착한다,,976,,107,,https://image.novelpia.com/imagebox/cover/5c39e99fd3e003034f0327010b4c09f4_201165_ori.wimg
 용사와 마왕의 전 남친 집착,,970,,42,,https://image.novelpia.com/imagebox/cover/49d1c178e7227731cdc706a6870d10ff_510043_ori.wimg
@@ -1904,4 +1904,3 @@ Ts)사신소년(녀),,0,,0,,https://image.novelpia.com/imagebox/cover/1505826f73
 탑속 정신나간 독술사가 되었다.,,0,,0,,https://image.novelpia.com/img/layout/readycover4.wimg
 나의 존재는 모순적이다,,0,,0,,https://image.novelpia.com/img/layout/readycover4.wimg
 내가 나로 있기까지,,0,,0,,https://image.novelpia.com/img/layout/readycover4.wimg
-`;
