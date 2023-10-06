@@ -22,7 +22,11 @@ while(True):
             titleElement = element.find_element(By.XPATH, '*[contains(@class, "name_st")]')
             title = titleElement.text
             
-            info_cover = element.parent.find_element(By.CLASS_NAME, 'cover_style ')
+            elementParent = element.find_element(By.XPATH, "..")
+            td = elementParent.find_element(By.CSS_SELECTOR, 'td')
+            td_div = elementParent.find_element(By.CSS_SELECTOR, 'div')
+            info_cover = td_div.find_element(By.CSS_SELECTOR, 'img')
+            print(info_cover)
             info_cover_src = info_cover.get_attribute('src')
             info_t_box = element.find_element(By.XPATH, '*[contains(@class, "info_t_box")]')
             
@@ -32,7 +36,7 @@ while(True):
             if title in novelDic:
                 overlapCount += 1
             novelDic[title] = (int(info_view), int(info_vote), info_cover_src)
-            print(title + ':' + info_view + '명 ' + info_vote + '회')
+            print(title + ':' + info_view + '명 ' + info_vote + '회' + info_cover_src)
         except:
             print('none')
 
