@@ -1,4 +1,4 @@
-const data1 = `로판 주인공들이 탈주했다,,7900,,993,,https://image.novelpia.com/imagebox/cover/3a6bd870b43dcadb39e7918cf1303a3a_183132_ori.wimg
+로판 주인공들이 탈주했다,,7900,,993,,https://image.novelpia.com/imagebox/cover/3a6bd870b43dcadb39e7918cf1303a3a_183132_ori.wimg
 노벨피아 부수기,,7500,,973,,https://image.novelpia.com/imagebox/cover/b271b6827f70c81818450044b3b1ffe7_90217_ori.wimg
 최종보스 아니고 작가입니다,,6700,,854,,https://image.novelpia.com/imagebox/cover/66a1e7cbdd6d95e67b270462999abbaf_379031_ori.wimg
 나 혼자 장르가 다르다,,5500,,555,,https://image.novelpia.com/imagebox/cover/d7298768c34001243bd7b73a1959c41e_105784_ori.wimg
@@ -1949,5 +1949,3 @@ Ts)사신소년(녀),,0,,0,,https://image.novelpia.com/imagebox/cover/1505826f73
 멸망한 세계의 달,,0,,0,,https://image.novelpia.com/img/layout/readycover4.wimg
 이세계 용사 스트리머,,0,,0,,https://image.novelpia.com/imagebox/cover/fbf281232368f1c42b8363211100e4a0_400519_ori.wimg
 천출 공자, 방직공장 소년공은 공작의 후계자가 된다.,,0,,0,,https://image.novelpia.com/img/layout/readycover4.wimg
-
-`;
