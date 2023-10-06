@@ -1949,3 +1949,4 @@ Ts)사신소년(녀),,0,,0,,https://image.novelpia.com/imagebox/cover/1505826f73
 멸망한 세계의 달,,0,,0,,https://image.novelpia.com/img/layout/readycover4.wimg
 이세계 용사 스트리머,,0,,0,,https://image.novelpia.com/imagebox/cover/fbf281232368f1c42b8363211100e4a0_400519_ori.wimg
 천출 공자, 방직공장 소년공은 공작의 후계자가 된다.,,0,,0,,https://image.novelpia.com/img/layout/readycover4.wimg
+`;
