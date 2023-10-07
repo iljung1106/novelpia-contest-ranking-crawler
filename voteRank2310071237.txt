@@ -1,4 +1,4 @@
-const data2 = `로판 주인공들이 탈주했다,,10000,,1300,,https://image.novelpia.com/imagebox/cover/3a6bd870b43dcadb39e7918cf1303a3a_183132_ori.wimg
+로판 주인공들이 탈주했다,,10000,,1300,,https://image.novelpia.com/imagebox/cover/3a6bd870b43dcadb39e7918cf1303a3a_183132_ori.wimg
 노벨피아 부수기,,8100,,1100,,https://image.novelpia.com/imagebox/cover/b271b6827f70c81818450044b3b1ffe7_90217_ori.wimg
 최종보스 아니고 작가입니다,,7200,,906,,https://image.novelpia.com/imagebox/cover/66a1e7cbdd6d95e67b270462999abbaf_379031_ori.wimg
 성녀의 어둠의 인격이 되었다,,6000,,833,,https://image.novelpia.com/imagebox/cover/8ab3a3caa721dcef6d7eed5d5393700c_268859_ori.wimg
@@ -1975,4 +1975,4 @@ Ts)사신소년(녀),,0,,0,,https://image.novelpia.com/imagebox/cover/1505826f73
 탑속 정신나간 독술사가 되었다.,,0,,0,,https://image.novelpia.com/img/layout/readycover4.wimg
 나의 존재는 모순적이다,,0,,0,,https://image.novelpia.com/img/layout/readycover4.wimg
 아카데미에 갇혔다,,0,,0,,https://image.novelpia.com/img/layout/readycover4.wimg
-지옥의 슈스는 회귀하고 싶다,,0,,0,,https://image.novelpia.com/imagebox/cover/52d0be417277ac5bbd4d3f0c87a58ffb_106492_ori.wimg`;
+지옥의 슈스는 회귀하고 싶다,,0,,0,,https://image.novelpia.com/imagebox/cover/52d0be417277ac5bbd4d3f0c87a58ffb_106492_ori.wimg
