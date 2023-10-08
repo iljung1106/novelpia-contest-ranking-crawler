@@ -17,22 +17,28 @@ function parseAndDisplayData(data) {
     let i = 0
     lines.forEach(line => {
         i++
-        const [title, data1, data2, imageUrl] = line.split(',,');
+        const [title, data1, data2, imageUrl, tag, link] = line.split(',,');
         
         const div = document.createElement('div');
         const h2 = document.createElement('h2');
         const p1 = document.createElement('p');
+        const a = document.createElement('a');
         const img = document.createElement('img');
+        const p2 = document.createElement('p');
         const hr = document.createElement('hr');
 
         h2.textContent = i + "위 : " + title;
         p1.textContent = "조회수 : " + data1 + "   추천 : " + data2;
         img.src = imageUrl;
+        p2.textContent = tag;
+        a.href = "https://novelpia.com" + link;
 
         
         div.appendChild(h2);
         div.appendChild(p1);
-        div.appendChild(img);
+        div.appendChild(a);
+        a.appendChild(img);
+        div.appendChild(p2);
         div.appendChild(hr)
         
 

@@ -1,4 +1,4 @@
-const data2 = `로판 주인공들이 탈주했다,,17100,,2100,,https://image.novelpia.com/imagebox/cover/3a6bd870b43dcadb39e7918cf1303a3a_183132_ori.wimg,,#판타지 #라이트노벨 #하렘,,/novel/232224
+로판 주인공들이 탈주했다,,17100,,2100,,https://image.novelpia.com/imagebox/cover/3a6bd870b43dcadb39e7918cf1303a3a_183132_ori.wimg,,#판타지 #라이트노벨 #하렘,,/novel/232224
 나 혼자 장르가 다르다,,17300,,1900,,https://image.novelpia.com/imagebox/cover/d7298768c34001243bd7b73a1959c41e_105784_ori.wimg,,#판타지 #하렘 #일상 #집착 #주인공빼고약피폐 #먼치킨 #빙의 #착각 #코미디 #구원,,/novel/233131
 최종보스 아니고 작가입니다,,12300,,1700,,https://image.novelpia.com/imagebox/cover/66a1e7cbdd6d95e67b270462999abbaf_379031_ori.wimg,,#로맨스 #라이트노벨 #현대 #순애 #작가 #히어로 #빌런 #빙의,,/novel/232222
 노벨피아 부수기,,10100,,1300,,https://image.novelpia.com/imagebox/cover/4e4f55c10ac358868bfa5a89dfdfb8cb_91063_ori.wimg,,#현대 #작가 #블랙코미디 #피카레스크 #부조리극,,/novel/232372
@@ -2212,4 +2212,3 @@ Ts)사신소년(녀),,0,,0,,https://image.novelpia.com/imagebox/cover/1505826f73
 회귀의 법칙,,0,,0,,https://image.novelpia.com/img/layout/readycover4.wimg,,#판타지 #전생 #중세 #하렘,,/novel/233488
 용사 파티, 재개,,0,,0,,https://image.novelpia.com/imagebox/67/6794bc6dee62bfb19f51ca152e33dbd5_37340_ori.wimg,,#판타지 #시간,,/novel/233479
 1년 그리고 2년,,0,,0,,https://image.novelpia.com/img/layout/readycover4.wimg,,#로맨스 #드라마,,/novel/235351
-`;

@@ -21,14 +21,19 @@ while(True):
         try:
             titleElement = element.find_element(By.XPATH, '*[contains(@class, "name_st")]')
             title = titleElement.text
+            link_onclick = titleElement.get_attribute("onclick")
+            link_text = str(link_onclick).split("'")[1]
             
             elementParent = element.find_element(By.XPATH, "..")
             td = elementParent.find_element(By.CSS_SELECTOR, 'td')
             td_div = elementParent.find_element(By.CSS_SELECTOR, 'div')
             info_cover = td_div.find_element(By.CSS_SELECTOR, 'img')
-            print(info_cover)
             info_cover_src = info_cover.get_attribute('src')
             info_t_box = element.find_element(By.XPATH, '*[contains(@class, "info_t_box")]')
+
+            hash_tag_box = info_t_box.find_element(By.XPATH, '*[contains(@class, "hash_tag_box")]')
+
+            hashtag_text = hash_tag_box.text
             
             info_text = info_t_box.text
             info_view = info_text.split('명')[0]
@@ -39,8 +44,9 @@ while(True):
                 info_vote = float(info_vote[:-1]) * 1000
             if title in novelDic:
                 overlapCount += 1
-            novelDic[title] = (int(info_view), int(info_vote), info_cover_src)
+            novelDic[title] = (int(info_view), int(info_vote), info_cover_src, hashtag_text, link_text)
             print(title + ':' + info_view + '명 ' + info_vote + '회' + info_cover_src)
+            print(hashtag_text + ",, " + link_text)
         except:
             print('none')
 
@@ -51,7 +57,7 @@ viewRankFile = open('./viewRank' + dt.datetime.now().strftime('%y%m%d%H%M') + '.
 end = False
 for item in novelViewRank:
     try:
-        viewRankFile.write(item[0] + ',,' + str(item[1][0]) + ',,' + str(item[1][1]) + ',,' + item[1][2] + '\n')
+        viewRankFile.write(item[0] + ',,' + str(item[1][0]) + ',,' + str(item[1][1]) + ',,' + item[1][2] + ',,' + str(item[1][3]) + ',,' + item[1][4] + '\n')
     except:
         break
 viewRankFile.close()
@@ -61,7 +67,7 @@ novelVoteRank = sorted(novelViewRank, key=lambda x: x[1][1], reverse=True)
 voteRankFile = open('./voteRank' + dt.datetime.now().strftime('%y%m%d%H%M') + '.txt', 'w', encoding='utf-8')
 for item in novelVoteRank:
     try:
-        voteRankFile.write(item[0] + ',,' + str(item[1][0]) + ',,' + str(item[1][1]) + ',,' + item[1][2] + '\n')
+        voteRankFile.write(item[0] + ',,' + str(item[1][0]) + ',,' + str(item[1][1]) + ',,' + item[1][2] + ',,' + str(item[1][3]) + ',,' + item[1][4] + '\n')
     except:
         break
 voteRankFile.close()
