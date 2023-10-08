@@ -1,4 +1,4 @@
-const data2 = `로판 주인공들이 탈주했다,,16600,,2100,,https://image.novelpia.com/imagebox/cover/3a6bd870b43dcadb39e7918cf1303a3a_183132_ori.wimg
+로판 주인공들이 탈주했다,,16600,,2100,,https://image.novelpia.com/imagebox/cover/3a6bd870b43dcadb39e7918cf1303a3a_183132_ori.wimg
 나 혼자 장르가 다르다,,16400,,1800,,https://image.novelpia.com/imagebox/cover/d7298768c34001243bd7b73a1959c41e_105784_ori.wimg
 최종보스 아니고 작가입니다,,11500,,1500,,https://image.novelpia.com/imagebox/cover/66a1e7cbdd6d95e67b270462999abbaf_379031_ori.wimg
 노벨피아 부수기,,10000,,1300,,https://image.novelpia.com/imagebox/cover/4e4f55c10ac358868bfa5a89dfdfb8cb_91063_ori.wimg
@@ -2186,4 +2186,3 @@ Ts)사신소년(녀),,0,,0,,https://image.novelpia.com/imagebox/cover/1505826f73
 회귀의 법칙,,0,,0,,https://image.novelpia.com/img/layout/readycover4.wimg
 용사 파티, 재개,,0,,0,,https://image.novelpia.com/imagebox/67/6794bc6dee62bfb19f51ca152e33dbd5_37340_ori.wimg
 바꾸기 위한 삶,,0,,0,,https://image.novelpia.com/imagebox/d8/d8cf685f660f2bc637b76c4b65a0b091_57930_ori.wimg
-`;
